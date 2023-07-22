@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E8ECED;
+}
+.wrapper {
+    margin-right: 130px;
+    margin-left: 130px;
+}
+h1{
+    text-align: center;
+    margin: 65px;
+    font-size: 50px;
+    color: #65862F;
+    font-family: 'Archivo Black', sans-serif;
+    letter-spacing: 1.5px;
+}
+form {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+#input-info {
+    width: 60%;
+    border: #65862F 3px solid;
+    border-right: none;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 22px;
+    color: #65862F;
+    padding: 10px;
+}
+.btn {
+    color: #65862F;
+    background-color: #FFFFFF;
+    padding: 5px;
+    width: 65px;
+    border: #65862F 3px solid;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img {
+    width: 270px;
+    height: 330px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 25px;
+    margin-top: 80px;
+    width: 300px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.title {
+    color: #65862F;
+    margin: 10px;
+    font-size: 21px;
+    text-align: center;
+}
+.recipe-link {
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+    background-color: #65862F;
+    padding: 10px;
+    width: 70%;
+    border-radius: 10px;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+.btn:hover {
+    background-color: #65862F;
+    color: #FFFFFF;
+}
+
+@media all and (max-width: 800px){
+    .wrapper {
+        margin-right: 80px;
+        margin-left: 80px;
+    }
+    h1 {
+        margin: 100px 50px 50px;
+        font-size: 45px;
+    }
+    #input-info {
+        font-size: 20px;
+    }
+    img {
+        width: 220px;
+        height: 280px;
+    }
+    .card {
+        width: 250px;
+    }
+    .title {
+        font-size: 19px;
+    }
+    .recipe-link {
+        font-size: 19px;
+    }
+}
+@media all and (max-width: 500px){
+    .wrapper {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    h1 {
+        margin: 80px 20px 40px;
+        font-size: 38px;
+    }
+    #input-info {
+        padding: 8px;
+        font-size: 18px;
+    }
+    .btn {
+        width: 55px;
+    }
+    img {
+        width: 210px;
+        height: 265px;
+    }
+    .card {
+        margin-top: 50px;
+    }
+    .title {
+        font-size: 17px;
+    }
+    .recipe-link {
+        font-size: 17px;
+    }
+}

@@ -1,6 +1,6 @@
 <h1 align="center">Recipes finder</h1>
 
-This project is simple recipe finder based on [public recipe search API](https://www.genome.gov/](https://api.edamam.com)https://api.edamam.com).
+This project is simple recipe finder based on [public recipe search API](https://api.edamam.com/).
 
 ##### The website is build by using those technologies:
 <p>
